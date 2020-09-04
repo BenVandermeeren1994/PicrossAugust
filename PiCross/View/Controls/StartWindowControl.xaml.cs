@@ -1,6 +1,4 @@
-﻿using DataStructures;
-using PiCross;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,18 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Grid = DataStructures.Grid;
-using Size = DataStructures.Size;
-using ViewModel;
 
-namespace View
+namespace View.Controls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for StartWindowControl.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StartWindowControl : UserControl
     {
-        public MainWindow()
+        public StartWindowControl()
         {
             InitializeComponent();
         }
